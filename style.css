@@ -13,7 +13,7 @@ p {
 	font-family: "Georgia";
 	font-size: 15px;
 	color: black;
-	text-align: left;
+	text-align: center;
 	line-height: 1.5;
 	letter-spacing: 2px;
 	text-indent: 30px;
@@ -23,7 +23,7 @@ a {
 	font-family: "Georgia";
 	font-size: 15px;
 	color: black;
-	text-align: left;
+	text-align: center;
 	line-height: 2;
 	
 }
@@ -51,13 +51,9 @@ ul {
 	font-size: 15px;
 	color: black;
 	line-height: 2;
+	text-align: center;
+	list-style-position: inside;
 }
-
-#left {
-	text-align: left;
-}
-
-
 
 #game {
 	text-align: center;
