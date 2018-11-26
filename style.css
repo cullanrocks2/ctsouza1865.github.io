@@ -2,28 +2,55 @@
 	font-family: "Georgia";
 	font-size: 40px;
 	text-align: center;
-	color: black;
+	color: white;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
+	max-width: 1920px; 
+	
+}
+
+.subtitle {	
+    font-family: "Georgia";
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
+	max-width: 1920px; 
+}
+
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-	background-color: #cccccc;
+	background-image: url("bgpattern.jpg");
 }
 
 p {
 	font-family: "Georgia";
 	font-size: 15px;
-	color: black;
-	text-align: center;
+	color: white;
+	text-align: left;
 	line-height: 1.5;
 	letter-spacing: 2px;
 	text-indent: 30px;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
+	max-width: 1920px; 
+	
 }
 
 a {
 	font-family: "Georgia";
 	font-size: 15px;
-	color: black;
-	text-align: center;
+	color: white;
+	text-align: left;
 	line-height: 2;
 	
 }
@@ -35,27 +62,98 @@ a:link {
 /* unvisited link */
 
 a:link {
-	color: black;
+	color: white;
 }
 
 a:visited  {
-	color: black;
+	color: white;
 }
 
 a:hover {
-	color: white;
+	color: #99c0ff;
+}
+a:active {
+	color: #99c0ff;
 }
 
 ul {
 	font-family: "Georgia";
 	font-size: 15px;
-	color: black;
+	color: white;
 	line-height: 2;
 	text-align: center;
 	list-style-position: inside;
-}
-
-#game {
-	text-align: center;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
+	max-width: 1920px;
 	list-style-type: none;
 }
+
+ul.nav {
+	margin: 25px;
+    padding: 0;
+	overflow: hidden;
+	background-color: black;
+	
+	
+}
+
+li.navi {
+	float: left;
+}
+
+li.navi>a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+
+li.navi>a:hover {
+	color:black;
+	background-color: #99c0ff;
+	
+}
+
+.game {
+	text-align: center;
+	list-style-type: none;	
+	font-family: "Georgia";
+	font-size: 25px;
+	text-align: center;
+	color: white;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
+	max-width: 1920px; 
+}
+#game {
+	text-align: center;
+	font-family: "Georgia";
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	border: 25px;
+	padding: 25px;
+	margin: 25px;
+	max-width: 1920px; 
+}
+
+img {
+	max-height:480px;
+	max-width: 720px;
+}
+
+	
+	
+
+
+
+
+
+	
+	
+	
