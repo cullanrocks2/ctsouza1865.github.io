@@ -147,7 +147,13 @@ img {
 	max-width: 720px;
 }
 
+div {
+	background-color: black;
+	border-style: solid;
+	border-size: 5px;
 	
+}
+
 	
 
 
