@@ -76,6 +76,12 @@ a:active {
 	color: #99c0ff;
 }
 
+ul.bullets {
+	text-align: left;
+	list-style-type: square;
+	}
+
+
 ul {
 	font-family: "Georgia";
 	font-size: 15px;
@@ -148,12 +154,37 @@ img {
 }
 
 div {
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.8);
 	border-style: solid;
-	border-size: 5px;
-	
+	border-color: white;
 }
 
+div.nav {
+	border-style: none;
+	border-color: none;
+	background-color: none;
+}
+
+.hidden {
+	visibility: hidden;
+	border-style: none;
+	border-color: none;
+	background-color: none;
+}
+
+.center {
+	text-align: center;
+	position: center;
+}
+
+
+	
+
+
+
+
+
+	
 	
 
 
