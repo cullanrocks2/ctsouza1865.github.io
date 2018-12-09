@@ -95,7 +95,7 @@ ul {
 	max-width: 1920px;
 	list-style-type: none;
 }
-
+/* Nav bar CSS start*/
 ul.nav {
 	margin: 25px;
     padding: 0;
@@ -123,6 +123,7 @@ li.navi>a:hover {
 	background-color: #99c0ff;
 	
 }
+/* Nav bar CSS end */
 
 .game {
 	text-align: center;
@@ -164,6 +165,9 @@ div.nav {
 	border-color: none;
 	background-color: none;
 }
+
+/* Hidden was used for the h1 titles that I included just for the sake of searching but
+didn't want them to actually show on the finished website*/
 
 .hidden {
 	visibility: hidden;
